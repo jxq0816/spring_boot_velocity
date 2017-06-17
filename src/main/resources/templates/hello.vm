@@ -1,0 +1,27 @@
+<html>  
+<body>  
+	
+	#parse("/header.vm")
+
+	welcome ${name}  to velocity!
+	<p>性别：
+		#if($gender == 1) 
+			男
+		#elseif($gender == 0)
+			女
+		#else 
+			保密
+		#end
+	 </p>
+
+	<h4>我的好友：</h4>	
+		
+		#foreach( $info in $friends )
+			姓名：$info.name , 年龄$info.age
+			<br/>
+		#end
+		
+	#include("/footer.vm")
+	
+</body>  
+</html>
