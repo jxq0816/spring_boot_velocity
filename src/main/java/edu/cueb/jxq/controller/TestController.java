@@ -1,5 +1,7 @@
-package edu.cueb.jxq;
+package edu.cueb.jxq.controller;
 
+import edu.cueb.jxq.service.TestService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -7,18 +9,20 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 /**
- * 测试velocity;
- * @author Angel -- 守护天使
- * @version v.0.1
- * @date 2016年10月4日
+ * Created by jiangxingqi on 2017/6/29.
  */
 @Controller
-public class HelloController {
+public class TestController {
+
+	@Autowired
+	private TestService testService;
 	
 	@RequestMapping("/hello")
 	public String hello(Map<String,Object> map){
+
+		testService.insert();
+
 		map.put("name", "姜兴琪");
 		map.put("gender","1");//gender:性别，1：男；0：女；
 		
