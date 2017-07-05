@@ -5,7 +5,7 @@
 
 
     <div class="userInfo">
-        <span style="display: inline-block;padding: 0;margin: 0;margin-left: 23px;">您好，$!{accountEntity.nickname}</span>
+        <span style="display: inline-block;padding: 0;margin: 0;margin-left: 23px;">您好，admin</span>
         <img src="/static/index/images/bottom_arrow.png" style="cursor: pointer" onclick="userInfo()">
     </div>
 
@@ -21,11 +21,13 @@
                 src="/static/index/images/opinion.png"><span>微信H5传播轨迹</span></a>
     </div>
     <div class="userinfo userinfos" style="">
-        <a href="" target="_blank" style=""><img
+        <a href="" style=""><img
                 src="/static/index/images/basic_data.png" style="width: 18px;"><span
                 style="display: inline-block;margin-left: 10px;"> 基本资料</span></a>
-        <a href="javascript:" style=""><img src="/static/index/images/my_order.png"><span>我的订单</span></a>
+        <a href="javascript:" style=""><img src="/static/index/images/my_order.png"><span
+                style="display: inline-block;margin-left: 10px;">我的订单</span></a>
         <a href="javascript:" style="border-bottom: 0;"><img
-                src="/static/index/images/my_amount.png"><span>我的金额</span></a>
+                src="/static/index/images/my_amount.png"><span
+                style="display: inline-block;margin-left: 10px;">我的金额</span></a>
     </div>
 </div>

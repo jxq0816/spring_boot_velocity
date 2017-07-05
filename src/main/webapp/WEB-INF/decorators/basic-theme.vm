@@ -2,14 +2,11 @@
 <head>
     <meta charset="utf-8">
     <title>电商价格监测平台</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    #*<link href="http://account.inter3i.com/static/service/images/ico/inter3i.ico?v=20170628103643" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
-    <link href="http://account.inter3i.com/static/service/images/ico/inter3i.ico?v=20170628103643" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="http://account.inter3i.com/static/service/images/ico/inter3i.ico?v=20170628103643" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />*#
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <link rel="stylesheet" href="/static/index/css/templatemo_main.css">
+    <script type="text/javascript" src="/static/index/js/common.js"></script>
+    <script type="text/javascript" src="/static/index/js/jquery.min.js"></script>
 </head>
 <body>
     #parse("/WEB-INF/decorators/frame/heads.vm")
