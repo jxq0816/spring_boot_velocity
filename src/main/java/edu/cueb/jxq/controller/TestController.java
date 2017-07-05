@@ -17,9 +17,9 @@ public class TestController {
 	@Autowired
 	private TestService testService;
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/index")
 	public ModelAndView hello(){
-		ModelAndView mv = new ModelAndView("hello");
+		ModelAndView mv = new ModelAndView("index");
 		Map<String,Object> user=new HashedMap();
 		user.put("name", "姜兴琪");
 		user.put("gender","1");//gender:性别，1：男；0：女；

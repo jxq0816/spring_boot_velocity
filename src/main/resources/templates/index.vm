@@ -1,7 +1,7 @@
 <html>  
 <body>  
 	
-	#parse("/header.vm")
+	#*#parse("/header.vm")*#
 
 	welcome ${user.name}  to velocity!
 	<p>性别：
@@ -13,7 +13,7 @@
 			保密
 		#end
 	 </p>
-	#include("/footer.vm")
+	#*#include("/footer.vm")*#
 	
 </body>  
 </html>
